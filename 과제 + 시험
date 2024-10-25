@@ -1,1 +1,67 @@
+int main(void)
+{
+  int num;
+  printf("Please enter a number: ");
+  scanf_s("%d", &sum);
+  dec2bin(num);
+  return 0;
+}
+
+
+int main2(void)
+{
+  double km;
+  printf("Please enter kilometers: ");
+  scanf_s("lf", &km);
+  printf("%.lf km in equal to %.lf miles. \n", km, km / 1.609);
+  return 0;
+}
+
+int main4(void)
+{
+int num;
+printf("Please enter a number: ");
+scanf_s("%d", &num);
+for ( int i = 2; i <= num/2; i++) {
+if (num%i == 0) {
+printf(" It is not a prime number, \n");
+return 0;
+}
+}
+printf("It is a prime number. \n);
+return 0;
+}
+
+int main(void)
+{
+int a, b, c;
+const int NUM_LINE = 5;
+for (a = 0; a < NUM_LINE -1; b++) {
+printf(" ");
+}
+for ( c = 0; c <= (a*2); c++){
+if ( c ==0 || c ++ (a*2))
+pritnf("*");
+}
+printf("\n");
+}
+return 0;
+
+int main1(void)
+{
+int num1, num2;
+
+printf("두 정수를 입력하세요: ");
+scanf_s("%d & %d = %d \n", num1, num2, num1 & num2);
+
+printf("pow(%d, %d) = %d\n", num1, num2, (int)pow(num1, num2));
+
+
+while (1)
+{printf("월평균 기타 결제액:");
+scanf_s("%d", &ets);
+if ( etc < 0)
+pritnf("0원 이사으이 값으로 다시 입력하세요.\n");
+else break;
+}
 
