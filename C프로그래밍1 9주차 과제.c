@@ -4,13 +4,13 @@ int main() {
     int numbers[5];
     int i;
 
-    // »ç¿ëÀÚ·ÎºÎÅÍ 5°³ÀÇ Á¤¼ö ÀÔ·Â ¹Ş±â
+    // ì‚¬ìš©ìë¡œë¶€í„° 5ê°œì˜ ì •ìˆ˜ ì…ë ¥ ë°›ê¸°
     printf("Please input five integers: ");
     for (i = 0; i < 5; i++) {
         scanf_s("%d", &numbers[i]);
     }
 
-    // È¦¼ö¿Í Â¦¼ö Ãâ·Â
+    // í™€ìˆ˜ì™€ ì§ìˆ˜ ì¶œë ¥
     printf("Odd numbers: ");
     for (i = 0; i < 5; i++) {
         if (numbers[i] % 2 != 0) {
